@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C++-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Repository-Public-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-None-lightgrey?style=flat-square" />
+</p>
+
+<h1 align="center">🧠 Design and Analysis of Algorithms (DAA) – Lab Applications</h1>
+
+<p align="center">
+  💻 C++ Implementations combining concept-level understanding and real-world algorithm applications.
+</p>
+
 # 🧠 Design and Analysis of Algorithms (DAA) – Lab Applications
 ## 🧑‍🏫 Course Information
 
