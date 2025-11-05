@@ -1,78 +1,72 @@
 # 🧠 Design and Analysis of Algorithms (DAA) – Lab Applications
+## 🧑‍🏫 Course Information
 
 **Course:** Design and Analysis of Algorithms (DAA)
-
 **Language Used:** C++
-
 **Semester:** III
-
 **Submitted by:** *Vaibhav Maroti Kandhare*
-
 **Roll No:** 24141024
+**Batch:** I2
 
-**College/University:** Government College Of Engineering,Karad
+### 💻 C++ Implementations (Concept + Real-world Applications)
 
-### 💻 Concept + Real-world Implementations in C++
+This repository contains all **Design and Analysis of Algorithms (DAA)** lab applications implemented in **C++**.
+Each experiment includes two parts:
 
-This repository contains all **DAA lab applications** implemented in **C++**.
-Each experiment includes:
-
-* A **simple version** — to understand the working of the algorithm.
-* An **application version** — demonstrating how the algorithm is used in real-life or practical scenarios.
+* 🧩 **Concept Program:** A simple version demonstrating algorithm logic.
+* 🚀 **Application Program:** A real-world problem using that algorithm.
 
 ---
 
-## 📚 List of Applications
+## 📚 Experiment List with Explanations
 
-| Sr. No. | Application Title                    | Algorithm Used                              | Files                                                       |
-| ------- | ------------------------------------ | ------------------------------------------- | ----------------------------------------------------------- |
-| 01      | Customer Database Search Application | Binary Search (Divide and Conquer)          | `simple_binary_search.cpp`, `binary_search_customer.cpp`    |
-| 02      | Product Price Sorting Application    | Quick Sort (Divide and Conquer)             | `simple_quick_sort.cpp`, `quick_sort_products.cpp`          |
-| 03      | Cargo Loading Optimization System    | Fractional Knapsack (Greedy Method)         | `simple_fractional_knapsack.cpp`, `fractional_knapsack.cpp` |
-| 04      | File Merge Cost Analyzer             | Optimal Merge Pattern (Greedy Method)       | `simple_optimal_merge.cpp`, `optimal_merge_pattern.cpp`     |
-| 05      | Office Network Cost Minimizer        | Kruskal’s Algorithm (Minimum Spanning Tree) | `simple_kruskal.cpp`, `kruskal_mst.cpp`                     |
-| 06      | City Travel Distance Finder          | Dijkstra’s Algorithm (Shortest Path)        | `simple_dijkstra.cpp`, `dijkstra_shortest_path.cpp`         |
+| Experiment No. | Application Title           | Algorithms Implemented              | Files                                                                                    | Description                                                                                                                               |
+| -------------- | --------------------------- | ----------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **01**         | Customer Database Search    | Binary Search                       | `BinarySearch.cpp`, `ApplicationBinary.cpp`                                              | A customer management application that allows quick searching of customer details based on their unique ID from a sorted database.        |
+| **02**         | Product Sorting System      | Quick Sort, Merge Sort              | `QuickSort.cpp`, `MergeSort.cpp`, `ApplicationQuickSort.cpp`, `ApplicationMergeSort.cpp` | A product catalog management tool that arranges items by name or price to simplify product listing and comparison.                        |
+| **03**         | Cargo Loading Optimization  | Fractional Knapsack                 | `Knapsack.cpp`, `ApplicationKnapsack.cpp`                                                | A logistics application that helps determine which cargo items to load into a truck to maximize value while staying within weight limits. |
+| **04**         | File Merge Cost Minimizer   | Optimal Merge Pattern               | `OptimalMerge.cpp`, `ApplicationOptimalMerge.cpp`                                        | A file-handling system that calculates the least total cost required to merge several data files efficiently.                             |
+| **05**         | Minimum Network Cost Finder | Kruskal’s and Prim’s MST Algorithms | `KruskalAlgo.cpp`, `PrimsAlgo.cpp`, `Application.cpp`                                    | A network design application used to plan the cheapest possible way to connect multiple offices or cities with minimal cable cost.        |
+| **06**         | Shortest Path Finder        | Dijkstra’s Algorithm                | `DijkstraAlgo.cpp`, `ApplicationDijkstra.cpp`                                            | A city travel planner that finds the shortest distance between one source city and all other cities for route optimization.               |
 
 ---
 
 ## ⚙️ How to Compile and Run
 
-Each program can be compiled individually using `g++`:
+Each experiment can be compiled and executed independently using any standard **C++ compiler**.
+
+### Example (Windows / Linux):
 
 ```bash
-# Example for running simple and application versions
-g++ Experiment-01_BinarySearch/simple_binary_search.cpp -o simple_search
-./simple_search
+# Compile and run a simple version
+g++ Experiment_01/BinarySearch.cpp -o BinarySearch
+./BinarySearch
 
-g++ Experiment-01_BinarySearch/binary_search_customer.cpp -o app_search
-./app_search
+# Compile and run the application version
+g++ Experiment_01/ApplicationBinary.cpp -o ApplicationBinary
+./ApplicationBinary
 ```
 
 ---
 
-## 🧾 Example Output
+## 🧾 Sample Output (Example)
 
-### Application 01 – Customer Database Search
-
-```
-Enter number of customers: 3
-Enter customer details (ID Name):
-101 John
-102 Alice
-103 Bob
-Enter Customer ID to search: 102
-Customer Found: Alice (ID: 102)
-```
-
-### Application 03 – Cargo Loading Optimization
+### Experiment 01 – Binary Search
 
 ```
-Enter number of cargo items: 3
-Enter truck capacity: 50
-Enter cargo details (ID Name Weight Value):
-1 Iron 10 60
-2 Copper 20 100
-3 Gold 30 120
-Total Value Loaded: 240
-Unused Capacity: 0
----
+Enter number of elements: 5
+1 3 5 7 9
+Enter element to search: 5
+Element found at position 3
+```
+
+### Experiment 03 – Knapsack Application
+
+```
+Enter number of items: 3
+Enter weight and value for each item:
+10 60
+20 100
+30 120
+Enter capacity: 50
+Maximum value achievable: 240
