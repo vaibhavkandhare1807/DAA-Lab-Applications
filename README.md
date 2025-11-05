@@ -1,13 +1,16 @@
-# DAA-Lab-Applications
-C++ implementations of Design and Analysis of Algorithms (DAA) lab applications — includes both simple algorithm understanding programs and practical real-world applications such as Binary Search, Quick Sort, Fractional Knapsack, Optimal Merge Pattern, Kruskal’s MST, and Dijkstra’s Shortest Path.
 # 🧠 Design and Analysis of Algorithms (DAA) – Lab Applications
 
 **Course:** Design and Analysis of Algorithms (DAA)
+
 **Language Used:** C++
+
 **Semester:** III
+
 **Submitted by:** *Vaibhav Maroti Kandhare*
+
 **Roll No:** 24141024
-**College/University:** Government College of Engineering,Karad
+
+**College/University:** Government College Of Engineering,Karad
 
 ### 💻 Concept + Real-world Implementations in C++
 
@@ -72,5 +75,4 @@ Enter cargo details (ID Name Weight Value):
 3 Gold 30 120
 Total Value Loaded: 240
 Unused Capacity: 0
-
 ---
